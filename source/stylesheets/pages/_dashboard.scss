@@ -1,0 +1,79 @@
+
+.padded {
+  padding: 30px 0;
+}
+
+.grid {
+  height: calc(100vh - 80px);
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 32.5% 22.5% 22.5% 22.5%;
+  padding: 30px 40px;
+}
+
+.main-section {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 1;
+}
+
+.stats-section {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+}
+.stats-section-1 {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+}
+.stats-section-2 {
+  grid-row: 1 / span 1;
+  grid-column: 4 / span 1;
+}
+
+.bio {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 3;
+}
+
+.green {
+  h3{
+  color: #5eb389;
+  font-size: 28px;
+  }
+  p {
+    padding-top: 5px;
+    color: #D3D3D3;
+    font-size: 20px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 25px;
+  line-height: 30px;
+  color: rgba(0,0,0,0.5);
+}
+
+.btn-primary {
+  background: #5eb389;
+  border-radius: 0;
+  margin-top: 30px;
+  border: 0px;
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+
